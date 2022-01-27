@@ -42,11 +42,12 @@
     font-size: 17px;
     text-transform: uppercase;
     font-weight: bold;
+    padding: 40px 20px 20px 20px;
   }
   .active,a:hover{
     background: #1b9bff;
     transition: 0.5s;
-    padding: 40px 20px 20px 20px;
+    
   }
   .bg_image{
     background-image: url(img/banner2.png);
@@ -58,7 +59,7 @@
   }
   .text_content{
       float: right;
-      margin-right: -200px;
+      margin-right: 330px;
       margin-top: 170px;
       letter-spacing: 2px;
       
@@ -70,9 +71,7 @@
       padding: 8px;
       margin-top: 5px;
   }
-  .btn a:hover{
-      background: fixed;
-  }
+  
   h3{
       text-align: center;
       margin-top: 10px; 
@@ -162,6 +161,12 @@ font-size: 30px;
 }
 h3{
   text-align: center;
+}
+.btn2{
+  border: 1px solid black;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
 }
 /* this is footer */
 footer {
